@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017191321DF466FB008CEA1D /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017191311DF466FB008CEA1D /* GameOverScene.swift */; };
+		0174E9D11DF247E000044D56 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174E9D01DF247E000044D56 /* Enemy.swift */; };
+		0174E9D31DF24E8800044D56 /* Zombie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174E9D21DF24E8800044D56 /* Zombie.swift */; };
+		0174E9D51DF24F7F00044D56 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174E9D41DF24F7F00044D56 /* Global.swift */; };
+		0174E9D71DF25A4E00044D56 /* Cats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0174E9D61DF25A4E00044D56 /* Cats.swift */; };
+		017660751DF1023400910BBA /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017660741DF1023400910BBA /* MyUtils.swift */; };
+		01C34E581DFCCDA100EEC0C4 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C34E571DFCCDA100EEC0C4 /* MainMenuScene.swift */; };
+		01F0B1C91DF23E0500E16880 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01F0B1C41DF23E0500E16880 /* backgroundMusic.mp3 */; };
+		01F0B1CA1DF23E0500E16880 /* hitCat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01F0B1C51DF23E0500E16880 /* hitCat.wav */; };
+		01F0B1CB1DF23E0500E16880 /* hitCatLady.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01F0B1C61DF23E0500E16880 /* hitCatLady.wav */; };
+		01F0B1CC1DF23E0500E16880 /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01F0B1C71DF23E0500E16880 /* lose.wav */; };
+		01F0B1CD1DF23E0500E16880 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01F0B1C81DF23E0500E16880 /* win.wav */; };
+		01FF2C271DEE696A003B7506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF2C261DEE696A003B7506 /* AppDelegate.swift */; };
+		01FF2C291DEE696A003B7506 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 01FF2C281DEE696A003B7506 /* GameScene.sks */; };
+		01FF2C2D1DEE696A003B7506 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF2C2C1DEE696A003B7506 /* GameScene.swift */; };
+		01FF2C2F1DEE696A003B7506 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF2C2E1DEE696A003B7506 /* GameViewController.swift */; };
+		01FF2C321DEE696A003B7506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FF2C301DEE696A003B7506 /* Main.storyboard */; };
+		01FF2C341DEE696A003B7506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FF2C331DEE696A003B7506 /* Assets.xcassets */; };
+		01FF2C371DEE696A003B7506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FF2C351DEE696A003B7506 /* LaunchScreen.storyboard */; };
+		01FF2C421DEE696A003B7506 /* CongoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF2C411DEE696A003B7506 /* CongoTests.swift */; };
+		01FF2C4D1DEE696A003B7506 /* CongoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF2C4C1DEE696A003B7506 /* CongoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01FF2C3E1DEE696A003B7506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01FF2C1B1DEE6969003B7506 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01FF2C221DEE6969003B7506;
+			remoteInfo = Congo;
+		};
+		01FF2C491DEE696A003B7506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01FF2C1B1DEE6969003B7506 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01FF2C221DEE6969003B7506;
+			remoteInfo = Congo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017191311DF466FB008CEA1D /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		0174E9D01DF247E000044D56 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		0174E9D21DF24E8800044D56 /* Zombie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zombie.swift; sourceTree = "<group>"; };
+		0174E9D41DF24F7F00044D56 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		0174E9D61DF25A4E00044D56 /* Cats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cats.swift; sourceTree = "<group>"; };
+		017660741DF1023400910BBA /* MyUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyUtils.swift; path = ../MyUtils.swift; sourceTree = "<group>"; };
+		01C34E571DFCCDA100EEC0C4 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		01F0B1C41DF23E0500E16880 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		01F0B1C51DF23E0500E16880 /* hitCat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCat.wav; sourceTree = "<group>"; };
+		01F0B1C61DF23E0500E16880 /* hitCatLady.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCatLady.wav; sourceTree = "<group>"; };
+		01F0B1C71DF23E0500E16880 /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
+		01F0B1C81DF23E0500E16880 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		01FF2C231DEE696A003B7506 /* Congo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Congo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FF2C261DEE696A003B7506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01FF2C281DEE696A003B7506 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		01FF2C2C1DEE696A003B7506 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		01FF2C2E1DEE696A003B7506 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		01FF2C311DEE696A003B7506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01FF2C331DEE696A003B7506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01FF2C361DEE696A003B7506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01FF2C381DEE696A003B7506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FF2C3D1DEE696A003B7506 /* CongoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CongoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FF2C411DEE696A003B7506 /* CongoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongoTests.swift; sourceTree = "<group>"; };
+		01FF2C431DEE696A003B7506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FF2C481DEE696A003B7506 /* CongoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CongoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FF2C4C1DEE696A003B7506 /* CongoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongoUITests.swift; sourceTree = "<group>"; };
+		01FF2C4E1DEE696A003B7506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01FF2C201DEE6969003B7506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FF2C3A1DEE696A003B7506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FF2C451DEE696A003B7506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F0B1C31DF23E0500E16880 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				01F0B1C41DF23E0500E16880 /* backgroundMusic.mp3 */,
+				01F0B1C51DF23E0500E16880 /* hitCat.wav */,
+				01F0B1C61DF23E0500E16880 /* hitCatLady.wav */,
+				01F0B1C71DF23E0500E16880 /* lose.wav */,
+				01F0B1C81DF23E0500E16880 /* win.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		01FF2C1A1DEE6969003B7506 = {
+			isa = PBXGroup;
+			children = (
+				01FF2C251DEE696A003B7506 /* Congo */,
+				01FF2C401DEE696A003B7506 /* CongoTests */,
+				01FF2C4B1DEE696A003B7506 /* CongoUITests */,
+				01FF2C241DEE696A003B7506 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01FF2C241DEE696A003B7506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01FF2C231DEE696A003B7506 /* Congo.app */,
+				01FF2C3D1DEE696A003B7506 /* CongoTests.xctest */,
+				01FF2C481DEE696A003B7506 /* CongoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01FF2C251DEE696A003B7506 /* Congo */ = {
+			isa = PBXGroup;
+			children = (
+				01F0B1C31DF23E0500E16880 /* Sounds */,
+				017660741DF1023400910BBA /* MyUtils.swift */,
+				01FF2C261DEE696A003B7506 /* AppDelegate.swift */,
+				01FF2C281DEE696A003B7506 /* GameScene.sks */,
+				01FF2C2C1DEE696A003B7506 /* GameScene.swift */,
+				01C34E571DFCCDA100EEC0C4 /* MainMenuScene.swift */,
+				017191311DF466FB008CEA1D /* GameOverScene.swift */,
+				01FF2C2E1DEE696A003B7506 /* GameViewController.swift */,
+				01FF2C301DEE696A003B7506 /* Main.storyboard */,
+				01FF2C331DEE696A003B7506 /* Assets.xcassets */,
+				01FF2C351DEE696A003B7506 /* LaunchScreen.storyboard */,
+				01FF2C381DEE696A003B7506 /* Info.plist */,
+				0174E9D01DF247E000044D56 /* Enemy.swift */,
+				0174E9D21DF24E8800044D56 /* Zombie.swift */,
+				0174E9D61DF25A4E00044D56 /* Cats.swift */,
+				0174E9D41DF24F7F00044D56 /* Global.swift */,
+			);
+			path = Congo;
+			sourceTree = "<group>";
+		};
+		01FF2C401DEE696A003B7506 /* CongoTests */ = {
+			isa = PBXGroup;
+			children = (
+				01FF2C411DEE696A003B7506 /* CongoTests.swift */,
+				01FF2C431DEE696A003B7506 /* Info.plist */,
+			);
+			path = CongoTests;
+			sourceTree = "<group>";
+		};
+		01FF2C4B1DEE696A003B7506 /* CongoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01FF2C4C1DEE696A003B7506 /* CongoUITests.swift */,
+				01FF2C4E1DEE696A003B7506 /* Info.plist */,
+			);
+			path = CongoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01FF2C221DEE6969003B7506 /* Congo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FF2C511DEE696A003B7506 /* Build configuration list for PBXNativeTarget "Congo" */;
+			buildPhases = (
+				01FF2C1F1DEE6969003B7506 /* Sources */,
+				01FF2C201DEE6969003B7506 /* Frameworks */,
+				01FF2C211DEE6969003B7506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Congo;
+			productName = Congo;
+			productReference = 01FF2C231DEE696A003B7506 /* Congo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01FF2C3C1DEE696A003B7506 /* CongoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FF2C541DEE696A003B7506 /* Build configuration list for PBXNativeTarget "CongoTests" */;
+			buildPhases = (
+				01FF2C391DEE696A003B7506 /* Sources */,
+				01FF2C3A1DEE696A003B7506 /* Frameworks */,
+				01FF2C3B1DEE696A003B7506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01FF2C3F1DEE696A003B7506 /* PBXTargetDependency */,
+			);
+			name = CongoTests;
+			productName = CongoTests;
+			productReference = 01FF2C3D1DEE696A003B7506 /* CongoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01FF2C471DEE696A003B7506 /* CongoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FF2C571DEE696A003B7506 /* Build configuration list for PBXNativeTarget "CongoUITests" */;
+			buildPhases = (
+				01FF2C441DEE696A003B7506 /* Sources */,
+				01FF2C451DEE696A003B7506 /* Frameworks */,
+				01FF2C461DEE696A003B7506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01FF2C4A1DEE696A003B7506 /* PBXTargetDependency */,
+			);
+			name = CongoUITests;
+			productName = CongoUITests;
+			productReference = 01FF2C481DEE696A003B7506 /* CongoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01FF2C1B1DEE6969003B7506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = FareedQ;
+				TargetAttributes = {
+					01FF2C221DEE6969003B7506 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TWCD96G7AS;
+						ProvisioningStyle = Automatic;
+					};
+					01FF2C3C1DEE696A003B7506 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TWCD96G7AS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01FF2C221DEE6969003B7506;
+					};
+					01FF2C471DEE696A003B7506 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TWCD96G7AS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01FF2C221DEE6969003B7506;
+					};
+				};
+			};
+			buildConfigurationList = 01FF2C1E1DEE6969003B7506 /* Build configuration list for PBXProject "Congo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01FF2C1A1DEE6969003B7506;
+			productRefGroup = 01FF2C241DEE696A003B7506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01FF2C221DEE6969003B7506 /* Congo */,
+				01FF2C3C1DEE696A003B7506 /* CongoTests */,
+				01FF2C471DEE696A003B7506 /* CongoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01FF2C211DEE6969003B7506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FF2C321DEE696A003B7506 /* Main.storyboard in Resources */,
+				01FF2C291DEE696A003B7506 /* GameScene.sks in Resources */,
+				01FF2C341DEE696A003B7506 /* Assets.xcassets in Resources */,
+				01F0B1CA1DF23E0500E16880 /* hitCat.wav in Resources */,
+				01F0B1C91DF23E0500E16880 /* backgroundMusic.mp3 in Resources */,
+				01F0B1CB1DF23E0500E16880 /* hitCatLady.wav in Resources */,
+				01F0B1CD1DF23E0500E16880 /* win.wav in Resources */,
+				01FF2C371DEE696A003B7506 /* LaunchScreen.storyboard in Resources */,
+				01F0B1CC1DF23E0500E16880 /* lose.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FF2C3B1DEE696A003B7506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FF2C461DEE696A003B7506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01FF2C1F1DEE6969003B7506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C34E581DFCCDA100EEC0C4 /* MainMenuScene.swift in Sources */,
+				0174E9D71DF25A4E00044D56 /* Cats.swift in Sources */,
+				0174E9D11DF247E000044D56 /* Enemy.swift in Sources */,
+				0174E9D31DF24E8800044D56 /* Zombie.swift in Sources */,
+				01FF2C2D1DEE696A003B7506 /* GameScene.swift in Sources */,
+				01FF2C2F1DEE696A003B7506 /* GameViewController.swift in Sources */,
+				01FF2C271DEE696A003B7506 /* AppDelegate.swift in Sources */,
+				017660751DF1023400910BBA /* MyUtils.swift in Sources */,
+				017191321DF466FB008CEA1D /* GameOverScene.swift in Sources */,
+				0174E9D51DF24F7F00044D56 /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FF2C391DEE696A003B7506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FF2C421DEE696A003B7506 /* CongoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FF2C441DEE696A003B7506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FF2C4D1DEE696A003B7506 /* CongoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01FF2C3F1DEE696A003B7506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01FF2C221DEE6969003B7506 /* Congo */;
+			targetProxy = 01FF2C3E1DEE696A003B7506 /* PBXContainerItemProxy */;
+		};
+		01FF2C4A1DEE696A003B7506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01FF2C221DEE6969003B7506 /* Congo */;
+			targetProxy = 01FF2C491DEE696A003B7506 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01FF2C301DEE696A003B7506 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01FF2C311DEE696A003B7506 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01FF2C351DEE696A003B7506 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01FF2C361DEE696A003B7506 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01FF2C4F1DEE696A003B7506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01FF2C501DEE696A003B7506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01FF2C521DEE696A003B7506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TWCD96G7AS;
+				INFOPLIST_FILE = Congo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FareedQ.Congo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		01FF2C531DEE696A003B7506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TWCD96G7AS;
+				INFOPLIST_FILE = Congo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FareedQ.Congo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		01FF2C551DEE696A003B7506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TWCD96G7AS;
+				INFOPLIST_FILE = CongoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FareedQ.CongoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Congo.app/Congo";
+			};
+			name = Debug;
+		};
+		01FF2C561DEE696A003B7506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TWCD96G7AS;
+				INFOPLIST_FILE = CongoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FareedQ.CongoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Congo.app/Congo";
+			};
+			name = Release;
+		};
+		01FF2C581DEE696A003B7506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TWCD96G7AS;
+				INFOPLIST_FILE = CongoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FareedQ.CongoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Congo;
+			};
+			name = Debug;
+		};
+		01FF2C591DEE696A003B7506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TWCD96G7AS;
+				INFOPLIST_FILE = CongoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FareedQ.CongoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Congo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01FF2C1E1DEE6969003B7506 /* Build configuration list for PBXProject "Congo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FF2C4F1DEE696A003B7506 /* Debug */,
+				01FF2C501DEE696A003B7506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01FF2C511DEE696A003B7506 /* Build configuration list for PBXNativeTarget "Congo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FF2C521DEE696A003B7506 /* Debug */,
+				01FF2C531DEE696A003B7506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01FF2C541DEE696A003B7506 /* Build configuration list for PBXNativeTarget "CongoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FF2C551DEE696A003B7506 /* Debug */,
+				01FF2C561DEE696A003B7506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01FF2C571DEE696A003B7506 /* Build configuration list for PBXNativeTarget "CongoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FF2C581DEE696A003B7506 /* Debug */,
+				01FF2C591DEE696A003B7506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01FF2C1B1DEE6969003B7506 /* Project object */;
+}
