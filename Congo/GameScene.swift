@@ -57,9 +57,9 @@ class GameScene: SKScene {
     }
     
     override func update(_ currentTime: TimeInterval) {
-        let offset = lastTouchLocation - zombie.position
+        let offset = zombie.position - lastTouchLocation
         let length = offset.length()
-        if(length <= zombie.movePointsPerSec * CGFloat(deltaTime)){
+        if(length <= zombie.movePointsPerSec * CGFloat(deltaTime) && lastTouchLocation != CGPoint.zero){
             zombie.position = lastTouchLocation
             zombie.velocity = CGPoint.zero
             zombie.stopZombieAnimation()
