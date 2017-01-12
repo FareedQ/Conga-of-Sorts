@@ -12,7 +12,7 @@ class MainMenuScene: SKScene {
     
     override func didMove(to view: SKView) {
         var background: SKSpriteNode
-        background = SKSpriteNode(imageNamed: "YouWin")
+        background = SKSpriteNode(imageNamed: "MainMenu")
         background.position = CGPoint(x: size.width/2, y: size.height/2)
         self.addChild(background)
     }
